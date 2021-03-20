@@ -1,0 +1,9 @@
+operando1: db 10
+oper: db 5
+operando2: db a
+
+MOV A,operando1
+MOV B, operando2
+ADD A, B
+HLT
+

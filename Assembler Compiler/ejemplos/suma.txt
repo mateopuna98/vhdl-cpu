@@ -1,0 +1,29 @@
+operando1 db 10
+operando2: db 5
+operando3: db 24
+mateop: db 100
+
+MOV A,operando1
+MOV B, operando2
+MOV C, operando3
+MOV D , mateop
+ADD A, B   
+MUL A, C 
+SUB A, D
+MOV 232, A
+PRT 232
+
+NOT a
+DIV D , A
+AND A , 7
+OR  B , D
+CMP A, 2
+JZ 10
+JG 25
+JL 5
+JMP 1
+RST
+
+HLT  
+
+
