@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity CPU is
     port (
         clk   : in std_logic;
-        control_signal: in std_logic_vector(8  downto 0);
+        control_signal: in std_logic_vector(15  downto 0);
         aux_out: out std_logic_vector(15  downto 0)
         );   
 end entity;
@@ -14,41 +14,43 @@ architecture behavioral of CPU is
 
     component PC is
         port(
-            sumar, activar_pc:in STD_LOGIC;
-            pc_out:out STD_LOGIC_VECTOR(11 downto 0)        
-        );
-	end component;
-
-    component MAR is
-        port(
-            w,activar_mar:in STD_LOGIC;
-            mar_in: in STD_LOGIC_VECTOR(11 downto 0);       
-            mar_out:out STD_LOGIC_VECTOR(11 downto 0)        
+            activar_pc:in STD_LOGIC;
+            micro_op: in std_logic_vector(1 downto 0);
+            pc_in: in std_logic_vector(7 downto 0);
+            pc_out:out STD_LOGIC_VECTOR(7 downto 0)        
         );
 	end component;
 
     component mar_mux is
         port (
-             in_1: in std_logic_vector(11 downto 0);
-             in_2: in std_logic_vector(11 downto 0);
-             selector : in std_logic;
-             mux_out_signal: out std_logic_vector(11 downto 0)
+             read_from_pc : in std_logic;
+             read_from_ir: in std_logic;
+             in_1: in std_logic_vector(7 downto 0);
+             in_2: in std_logic_vector(7 downto 0);
+             mux_out_signal: out std_logic_vector(7 downto 0)
         );
     end component;
 
+    component MAR is
+        port(
+            w,r,activar_mar:in STD_LOGIC;
+            mar_in: in STD_LOGIC_VECTOR(7 downto 0);       
+            mar_out:out STD_LOGIC_VECTOR(7 downto 0)        
+        );
+	end component;
+
     component RAM is
         port(
-			r,w , activar_ram:in STD_LOGIC;         
-        address:in STD_LOGIC_VECTOR(11 downto 0);
-        data_in:in STD_LOGIC_VECTOR(15 downto 0);
-        data_out:out STD_LOGIC_VECTOR(15 downto 0)
+		r,w , activar_ram:in STD_LOGIC;         
+        address:in STD_LOGIC_VECTOR(7 downto 0);
+        data_in:in STD_LOGIC_VECTOR(7 downto 0);
+        data_out:out STD_LOGIC_VECTOR(7 downto 0)
     );
     end component; 
 	 
 component	 unidadControl is
-	 port(clk:in STD_LOGIC;  
-         ir_in: in STD_LOGIC_VECTOR(15 downto 0);    
-         state_out: out STD_LOGIC_VECTOR(8 downto 0)         
+	 port(ir_in: in STD_LOGIC_VECTOR(15 downto 0);    
+         state_out: out STD_LOGIC_VECTOR(15 downto 0)         
      );
 end component;
 
@@ -76,51 +78,55 @@ end component;
 
      component IR is
          port(r,w, activar_ir:in STD_LOGIC;
-         ir_in: in std_logic_vector(15 downto 0);
-         ir_out: out std_logic_vector(15 downto 0)       
+         ir_in: in std_logic_vector(7 downto 0);
+         ir_out: out std_logic_vector(7 downto 0);
+         instruction: out std_logic_vector(23 downto 0)       
      );
 	 end component;
 
-    signal pc_value : std_logic_vector(11 downto 0) := "XXXXXXXXXXXX";
-	 signal ir_value : std_logic_vector(15 downto 0) := "XXXXXXXXXXXXXXXX";   
-	 signal ac_value : std_logic_vector(15 downto 0) := "XXXXXXXXXXXXXXXX";  
-    signal mux_out : std_logic_vector(11 downto 0) :=  "XXXXXXXXXXXX";
+    signal pc_value : std_logic_vector(7 downto 0) := "00000000";
+	signal ir_value : std_logic_vector(7 downto 0) := "00000000";   
+	signal ac_value : std_logic_vector(15 downto 0) := "0000000000000000";  
+    signal mar_mux_out : std_logic_vector(7 downto 0) :=  "00000000";
     signal operation : std_logic_vector(3 downto 0) := "0000";
-    signal mar_out : std_logic_vector(11 downto 0) := "XXXXXXXXXXXX";
-	 signal mbr_out : std_logic_vector(15 downto 0) := "XXXXXXXXXXXXXXXX";
-    signal ram_data_in : std_logic_vector(15 downto 0) := "XXXXXXXXXXXXXXXX";
-    signal ram_data_out : std_logic_vector(15 downto 0) := "XXXXXXXXXXXXXXXX";
-	 signal control_out : std_logic_vector(8 downto 0) := "XXXXXXXXX";
+    signal mar_out : std_logic_vector(11 downto 0) := "000000000000";
+	signal mbr_out : std_logic_vector(15 downto 0) := "0000000000000000";
+    signal ram_data_in : std_logic_vector(15 downto 0) := "0000000000000000";
+    signal ram_data_out : std_logic_vector(15 downto 0) := "0000000000000000";
+	signal control_out : std_logic_vector(15 downto 0) := "0000000000000000";
 
 begin
+    --saque el clk porque habia errores y no entendia bien como servia, lo puedes anadir si lo necesitas
 	unidadControlU: unidadControl port map(
-		clk, 
 		ir_value, 
 		control_out
 		);
-    pcU: pc port map (        
-        control_out(8),
-        control_out(5),
+    
+    pcU: pc port map ( 
+        control_out(7),
+        control_out(10 downto 9),
+        ir_value,      
         pc_value
     );
 
     marMuxU: mar_mux port map (
         pc_value,
-        ir_value(11 downto 0),
-        control_out(1),
-        mux_out
+        ir_value,
+        control_out(7),
+        control_out(3),
+        mar_mux_out
     );
 
     marU: mar port map (        
         control_out(6),
         control_out(4),
-        mux_out,
+        mar_mux_out,
         mar_out
     );
 
     ramU: ram port map (        
         control_out(7),
-		  control_out(6),
+		control_out(6),
         control_out(3),
         mar_out,
         ac_value,
