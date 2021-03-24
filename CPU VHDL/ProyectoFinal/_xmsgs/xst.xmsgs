@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="804" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Size of <arg fmt="%s" index="3">aggregate</arg> is different than size of <arg fmt="%s" index="4">the target</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">00000000</arg>&quot; is of size <arg fmt="%u" index="4">8</arg> but is expected to be of size <arg fmt="%u" index="5">4</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="804" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">62</arg>. Size of <arg fmt="%s" index="3">ir_in</arg> is different than size of <arg fmt="%s" index="4">the target</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">63</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">ir_ad</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">67</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0000</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">8</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">79</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">85</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">91</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">99</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0101</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">8</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">105</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">117</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">126</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0101</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">8</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">132</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">141</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0101</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">8</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">147</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">153</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/unidadControl.vhd</arg>&quot; Line <arg fmt="%d" index="2">159</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">next_val</arg>.
+</msg>
+
+</messages>
+
