@@ -15,7 +15,7 @@ end mar_mux;
 architecture behavioral of mar_mux is
     
 begin
-    process (in_1,in_2,read_from_pc,read_from_ir)
+    process (read_from_pc,read_from_ir)
     begin
         if (read_from_pc = '1') then
             mux_out_signal <= in_1;

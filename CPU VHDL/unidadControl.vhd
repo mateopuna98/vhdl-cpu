@@ -33,8 +33,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity unidadControl is
 	 port(clk:in STD_LOGIC;  
-         ir_in: in STD_LOGIC_VECTOR(15 downto 0);    
-         state_out: out STD_LOGIC_VECTOR(8 downto 0)         
+         ir_in: in STD_LOGIC_VECTOR(23 downto 0);    
+         state_out: out STD_LOGIC_VECTOR(15 downto 0)         
      );
 end unidadControl;
 
