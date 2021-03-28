@@ -72,14 +72,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1616856304" xil_pn:in_ck="-2056120030801433516" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8518729297417625922" xil_pn:start_ts="1616856289">
+    <transform xil_pn:end_ts="1616962029" xil_pn:in_ck="-2056120030801433516" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8518729297417625922" xil_pn:start_ts="1616962003">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="unidadControl.lso"/>
