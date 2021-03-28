@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\UPB\Upb Sistemas\Arquitectura de Procesadores\Tercer Parcial\Proyecto Final\vhdl-cpu\CPU VHDL\ProyectoFinal\lcdTest\lcd.ncd
+OUTFILE=D:\UPB\Upb Sistemas\Arquitectura de Procesadores\Tercer Parcial\Proyecto Final\vhdl-cpu\CPU VHDL\ProyectoFinal\lcdTest\lcd.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\UPB\Upb Sistemas\Arquitectura de Procesadores\Tercer Parcial\Proyecto Final\vhdl-cpu\CPU VHDL\ProyectoFinal\lcdTest
+LICENSE=WebPack
+USER_INFO=212082593_0_0_830

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-03-23T19:13:13</DateModified>
+  <DateModified>2021-03-27T11:10:37</DateModified>
   <ModuleName>unidadControl</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/iseconfig/unidadControl.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal\</ImplementationReportsDirectory>
   <DateInitialized>2021-03-23T19:13:13</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

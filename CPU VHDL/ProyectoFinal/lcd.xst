@@ -1,0 +1,5 @@
+set -tmpdir "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/xst/projnav.tmp"
+set -xsthdpdir "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/xst"
+elaborate
+-ifn lcd.prj
+-ifmt mixed
