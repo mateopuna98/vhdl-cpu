@@ -26,13 +26,13 @@ process (read_from_ir,read_from_ram,read_from_register,read_from_alu,in_ram,in_i
 begin
 
     if(read_from_ir = '1') then
-        aux_mbr_in(23 downto 16) := "00001111";
+        aux_mbr_in(23 downto 16) := in_ir;
     elsif (read_from_ram = '1') then
         aux_mbr_in := in_ram;
     elsif (read_from_register = '1') then
-        aux_mbr_in(23 downto 16) := "00001000";
+        aux_mbr_in(23 downto 16) := in_register;
     elsif (read_from_alu = '1') then
-        aux_mbr_in(23 downto 16) := "00001100";
+        aux_mbr_in(23 downto 16) := in_alu;
     end if;
 	 
     mbr_mux_in_out_signal <= aux_mbr_in;

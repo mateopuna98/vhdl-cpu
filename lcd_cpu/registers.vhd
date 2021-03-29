@@ -13,10 +13,10 @@ entity registers is
 end entity;
 
 architecture behavioral of registers is
-    signal a_value : std_logic_vector(7 downto 0) := "00000000";
-    signal b_value : std_logic_vector(7 downto 0) := "00000000";
-    signal c_value : std_logic_vector(7 downto 0) := "00000000";
-    signal d_value : std_logic_vector(7 downto 0) := "00000000";
+    signal a_value : std_logic_vector(7 downto 0) := "10101010";
+    signal b_value : std_logic_vector(7 downto 0) := "11111111";
+    signal c_value : std_logic_vector(7 downto 0) := "11111110";
+    signal d_value : std_logic_vector(7 downto 0) := "11110000";
 
 begin
     process (activate_reg_code)
@@ -30,28 +30,28 @@ begin
                 aux_value := reg_in;
             end if;
             case mar_address_split is
-                when "000" =>
+                when "001" =>
                     if(w = '1') then 
                         a_value <= aux_value;
                     else
                         aux_value := a_value;
                     end if;
                     reg_out <= aux_value;
-                when "001" =>
+                when "010" =>
                     if(w = '1') then 
                         b_value <= aux_value;
                     else
                         aux_value := b_value;
                     end if;
                     reg_out <= aux_value;
-                when "010" =>
+                when "011" =>
                     if(w = '1') then 
                         c_value <= aux_value;
                     else
                         aux_value := c_value;
                     end if;
                     reg_out <= aux_value;
-                when "011" =>
+                when "100" =>
                     if(w = '1') then 
                         d_value <= aux_value;
                     else

@@ -21,8 +21,6 @@ begin
             mux_out_signal <= in_1;
         elsif (read_from_ir = '1') then
             mux_out_signal <= in_2;
-		else
-			mux_out_signal <= in_1;
         end if;
     end process;
     
