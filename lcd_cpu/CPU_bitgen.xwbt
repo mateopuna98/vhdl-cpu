@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\UPB\Upb Sistemas\Arquitectura de Procesadores\Tercer Parcial\Final Combinado\lcd_cpu\CPU.ncd
+OUTFILE=D:\UPB\Upb Sistemas\Arquitectura de Procesadores\Tercer Parcial\Final Combinado\lcd_cpu\CPU.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\UPB\Upb Sistemas\Arquitectura de Procesadores\Tercer Parcial\Final Combinado\lcd_cpu
+LICENSE=WebPack
+USER_INFO=212082593_0_0_830
