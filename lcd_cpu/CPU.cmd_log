@@ -1,0 +1,331 @@
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+netgen -intstyle ise -ar Structure -tm CPU -w -dir netgen/synthesis -ofmt vhdl -sim CPU.ngc CPU_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "CPU.ngc" CPU.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 

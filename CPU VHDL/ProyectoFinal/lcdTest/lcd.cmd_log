@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.syr" 
+xst -intstyle ise -ifn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.xst" -ofn "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Proyecto Final/vhdl-cpu/CPU VHDL/ProyectoFinal/lcdTest/lcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpga.ucf -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_map.ncd lcd.ncd lcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd.twx lcd.ncd -o lcd.twr lcd.pcf -ucf fpga.ucf 
+bitgen -intstyle ise -f lcd.ut lcd.ncd 

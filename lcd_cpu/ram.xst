@@ -1,0 +1,5 @@
+set -tmpdir "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/xst/projnav.tmp"
+set -xsthdpdir "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/xst"
+elaborate
+-ifn ram.prj
+-ifmt mixed

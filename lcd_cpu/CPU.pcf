@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Mar 29 14:29:00 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "DB<3>" LOCATE = SITE "M15" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "lcd_reset" LOCATE = SITE "L13" LEVEL 1;
+COMP "RS" LOCATE = SITE "L18" LEVEL 1;
+COMP "RW" LOCATE = SITE "L17" LEVEL 1;
+COMP "E" LOCATE = SITE "M18" LEVEL 1;
+COMP "activar_cpu" LOCATE = SITE "N17" LEVEL 1;
+COMP "DB<0>" LOCATE = SITE "R15" LEVEL 1;
+COMP "DB<1>" LOCATE = SITE "R16" LEVEL 1;
+COMP "DB<2>" LOCATE = SITE "P17" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

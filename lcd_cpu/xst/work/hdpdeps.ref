@@ -1,0 +1,102 @@
+V3 55
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/alu.vhd" 2021/03/29.08:57:32 P.20131013
+EN work/alu 1617022677 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/alu.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/alu/behavioral 1617022678 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/alu.vhd" \
+      EN work/alu 1617022677
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/carry.vhd" 2021/03/28.16:21:33 P.20131013
+EN work/carry 1617022679 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/carry.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/carry/behavioral 1617022680 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/carry.vhd" \
+      EN work/carry 1617022679
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.vhd" 2021/03/28.23:17:09 P.20131013
+EN work/CPU 1617022683 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/CPU/behavioral 1617022684 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/CPU.vhd" \
+      EN work/CPU 1617022683 CP unidadControl CP lcd CP pc CP mbrMuxIn CP mar_mux \
+      CP mar CP registers CP ram CP mbr CP ir CP alu CP carry CP zero
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/ir.vhd" 2021/03/28.16:21:33 P.20131013
+EN work/IR 1617022675 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/ir.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ir/Behavioral 1617022676 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/ir.vhd" \
+      EN work/IR 1617022675
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/lcd.vhd" 2021/03/28.22:08:09 P.20131013
+EN work/lcd 1617022659 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/lcd.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/lcd/Behavioral 1617022660 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/lcd.vhd" \
+      EN work/lcd 1617022659
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mar.vhd" 2021/03/28.22:56:49 P.20131013
+EN work/mar 1617022667 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mar.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mar/behavioral 1617022668 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mar.vhd" \
+      EN work/mar 1617022667
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/marMux.vhd" 2021/03/28.21:27:12 P.20131013
+EN work/mar_mux 1617022665 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/marMux.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mar_mux/behavioral 1617022666 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/marMux.vhd" \
+      EN work/mar_mux 1617022665
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mbr.vhd" 2021/03/28.23:00:56 P.20131013
+EN work/MBR 1617022673 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mbr.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mbr/Behavioral 1617022674 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mbr.vhd" \
+      EN work/MBR 1617022673
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mbrMuxIn.vhd" 2021/03/28.16:21:33 P.20131013
+EN work/mbrMuxIn 1617022663 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mbrMuxIn.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mbrMuxIn/behavioral 1617022664 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/mbrMuxIn.vhd" \
+      EN work/mbrMuxIn 1617022663
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/pc.vhd" 2021/03/28.22:54:28 P.20131013
+EN work/PC 1617022661 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/pc.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/pc/behavorial 1617022662 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/pc.vhd" \
+      EN work/PC 1617022661
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/ram.vhd" 2021/03/28.23:15:21 P.20131013
+EN work/ram 1617022671 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/ram.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ram/behavorial 1617022672 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/ram.vhd" \
+      EN work/ram 1617022671
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/registers.vhd" 2021/03/28.16:21:33 P.20131013
+EN work/registers 1617022669 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/registers.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registers/behavioral 1617022670 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/registers.vhd" \
+      EN work/registers 1617022669
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/unidadControl.vhd" 2021/03/28.23:01:29 P.20131013
+EN work/unidadControl 1617022657 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/unidadControl.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/unidadControl/Behavioral 1617022658 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/unidadControl.vhd" \
+      EN work/unidadControl 1617022657
+FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/zero.vhd" 2021/03/28.16:21:33 P.20131013
+EN work/zero 1617022681 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/zero.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/zero/behavioral 1617022682 \
+      FL "D:/UPB/Upb Sistemas/Arquitectura de Procesadores/Tercer Parcial/Final Combinado/lcd_cpu/zero.vhd" \
+      EN work/zero 1617022681

@@ -32,7 +32,8 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity unidadControl is
-	 port(clk:in STD_LOGIC;  
+	 port(clk:in STD_LOGIC; 
+			begin_work: in STD_LOGIC;
          ir_in: in STD_LOGIC_VECTOR(23 downto 0);    
          state_out: out STD_LOGIC_VECTOR(15 downto 0)         
      );
@@ -42,7 +43,7 @@ architecture Behavioral of unidadControl is
 	 
 	type estados is (start, mbr_write_02, ir_out_01, ir_out_02, mar_write_00, reg_read_00, mbr_write_01, alu_write_00,
 	 alu_op_02, mbr_write_00, reg_write_00, pc_add_00, mar_write_01, reg_read_01, ram_read_00, ram_write_00,
-	 pc_write_00,
+	 pc_write_00,hlt,
 	 inicio_01,inicio_02, inicio_03, inicio_04);
 	signal current_st : estados := pc_add_00;
 
@@ -56,7 +57,7 @@ begin
 4 => "0000010000000001", 5 => "0001001000010000", 6 => "0000001100000000",
 7 => "0000001000010000", 8 => "0000001000000001", 9 => "0000010000100000",
 10 => "0000001001000000", 11 => "0000001010000000",12 => "0000100111111001",
-13 => "0000001000000010", 14 => "0000111000000000", 15 => "0000001010000100",
+13 => "0000001000000010", 14 => "0000000000000000", 15 => "0000001010000100",
 16 => "0000001000001000",
 100 => "0011001100000000", 101 => "0100001100000000", 102 => "0101001100000000",
 103 => "0110001100000000", 104 => "0111001100000000", 105 => "1000001100000000",
@@ -73,6 +74,8 @@ others => "0000000000000000");
 		
 		
 		begin
+	if (begin_work = '1') then 
+	
 	if (clk'event and clk = '1') then
 		ir_op := ir_in(23 downto 19);
 		ir_dir_mod_op1 := ir_in(18);
@@ -98,13 +101,13 @@ others => "0000000000000000");
 		elsif (current_st = inicio_02) then
 			CAR := next_val;
 			CBR := cMemory(to_integer(unsigned(CAR)));				
-			next_val := "00000111";
+			next_val := "00000101";
 			state_out <= CBR;
 			current_st <= inicio_03;
 		elsif (current_st = inicio_03) then
 			CAR := next_val;
 			CBR := cMemory(to_integer(unsigned(CAR)));			
-			next_val := "00010000";
+			next_val := "00000000"; 
 			state_out <= CBR;
 			current_st <= inicio_04;
 		elsif (current_st = inicio_04) then
@@ -112,7 +115,7 @@ others => "0000000000000000");
 			CBR := cMemory(to_integer(unsigned(CAR)));				
 			next_val := "11111111";
 			state_out <= CBR;
-			current_st <= start;		
+			current_st <= hlt;		
 -- Fin Estado Inicial
 -- Operaciones ALU
 -- anadir con or cualquier otra operacion a tomarse en cuenta en el mismo proceso
@@ -487,9 +490,11 @@ others => "0000000000000000");
 				CBR := cMemory(to_integer(unsigned(CAR)));				
 				next_val := "11111111";
 				state_out <= CBR;
-				current_st <= pc_add_00;					
+				current_st <= hlt;					
 		end if;
 		end if;
+		end if;		
+		
 		end if;
 	end process;
 	

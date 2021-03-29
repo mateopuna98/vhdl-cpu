@@ -1,0 +1,11 @@
+NET "E" LOC = "M18" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+NET "RS" LOC = "L18" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+NET "RW" LOC = "L17" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+# The LCD four-bit data interface is shared with the StrataFlash.
+NET "DB<0>" LOC = "R15" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+NET "DB<1>" LOC = "R16" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+NET "DB<2>" LOC = "P17" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+NET "DB<3>" LOC = "M15" |  IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 2;
+NET "clk" LOC = "C9" | IOSTANDARD = LVTTL;
+NET "lcd_reset" LOC = "L13" | IOSTANDARD = LVTTL | PULLUP;
+NET "activar_cpu" LOC = "N17" | IOSTANDARD = LVTTL | PULLUP;
