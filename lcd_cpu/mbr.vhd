@@ -16,29 +16,26 @@ entity MBR is
 
 architecture Behavioral of mbr is
 
-
 begin
 	process (activar_mbr)
 		variable mbr_value :std_logic_vector(23 downto 0) := "000000000000000000000000";
-		variable mbr_out :std_logic_vector(23 downto 0) := "000000000000000000000000";
 	begin	
 		if (activar_mbr = '1') then
 			if (r = '0' and w = '1') then
-				mbr_value := mbr_in;
-			elsif (r = '1' and w = '0') then
 				if (operando = "0001") then
+					mbr_value(23 downto 16) := mbr_in(23 downto 16);
 					mbr_value(15 downto 0) := "0000000000000000";
-					mbr_out := mbr_value;
+					mbr_out_1 <= mbr_in (23 downto 16);
 				elsif (operando = "0010") then
+					mbr_value(23 downto 16) := mbr_in(23 downto 16);
 					mbr_value(15 downto 0) := "0000000000000000";
-					mbr_out := mbr_value;
+					mbr_out_2 <= mbr_in (23 downto 16);
+				else
+					mbr_value := mbr_in;
 				end if;	
-				mbr_out := mbr_value;
+				mbr_ir_out <= mbr_value;
 			end if;
 		end if;
-		mbr_out_1 <= mbr_in (23 downto 16);
-		mbr_out_2 <= mbr_out (23 downto 16);
-		mbr_ir_out <= mbr_in;
 	end process;
 
 end Behavioral;

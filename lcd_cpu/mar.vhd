@@ -10,16 +10,19 @@ entity mar is
 end mar;
 
 architecture behavioral of mar is
+    signal mar_aux : std_logic_vector(7 downto 0) := "00000000";
+
 begin
-    process (activar_mar)
-	 variable mar_val : STD_LOGIC_VECTOR(7 downto 0):= "11111111";  
+    process (activar_mar,mar_in)
+	 variable mar_val : STD_LOGIC_VECTOR(7 downto 0):= mar_aux;  
     begin
         if(activar_mar = '1') then
                 if (w = '1') then
 					mar_val := mar_in;                    
-                end if;			
+                end if;	
+            mar_aux <= mar_val;
+            mar_out <= mar_val;
         end if;
-		  mar_out <= mar_val;
     end process;
     
 end architecture behavioral;

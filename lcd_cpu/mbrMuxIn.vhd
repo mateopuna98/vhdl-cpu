@@ -20,21 +20,19 @@ architecture behavioral of mbrMuxIn is
 
 begin
     
-process (read_from_ir,read_from_ram,read_from_register,read_from_alu)
+process (read_from_ir,read_from_ram,read_from_register,read_from_alu,in_ram,in_ir,in_register,in_alu)
     variable aux_mbr_in: std_logic_vector(23 downto 0):= "000000000000000000000000";
 
 begin
-	 
+
     if(read_from_ir = '1') then
-        aux_mbr_in(23 downto 16) := "00000100";
+        aux_mbr_in(23 downto 16) := "00001111";
     elsif (read_from_ram = '1') then
         aux_mbr_in := in_ram;
     elsif (read_from_register = '1') then
-        aux_mbr_in(23 downto 16) := "00000001";
+        aux_mbr_in(23 downto 16) := "00001000";
     elsif (read_from_alu = '1') then
-        aux_mbr_in(23 downto 16) := "00000010";
-	 else 
-		aux_mbr_in(23 downto 16) := "11111111";
+        aux_mbr_in(23 downto 16) := "00001100";
     end if;
 	 
     mbr_mux_in_out_signal <= aux_mbr_in;
